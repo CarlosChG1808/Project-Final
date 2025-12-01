@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  profiles:
+    active: local
+
+  application:
+    name: order-service
+
+user:
+  service:
+    url: http://user-service-dev:8081
+
+product:
+  service:
+    url: http://product-service-dev:8082
